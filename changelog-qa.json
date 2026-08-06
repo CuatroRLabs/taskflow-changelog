@@ -1,0 +1,184 @@
+{
+  "versiones": [
+    {
+      "plataforma": "web",
+      "version": "1.15.102",
+      "fecha": "05-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Mejora en mensaje informativo al desactivar Tipos de OT",
+          "descripcion": "Se clarifica el texto de confirmación al desactivar un tipo de OT, detallando el impacto en perfiles técnicos y el listado completo de estados activos que bloquean su desactivación.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.101",
+      "fecha": "05-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Se agregaron nuevos permisos para el módulo de Inventario",
+          "descripcion": "Se crearon permisos para Ubicaciones, Transferencias y Eliminador de transacciones en el módulo de Inventario",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.100",
+      "fecha": "04-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Visualización de listas de chequeo en Planta Externa",
+          "descripcion": "Se agregó un nuevo botón que permite ver rápidamente todas las preguntas de una lista de chequeo desde la tabla principal",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.99",
+      "fecha": "03-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Ordenamiento en tabla de OTS",
+          "descripcion": "Se habilita el ordenamiento ascendente/descendente en las columnas Cliente, Descripción, Dirección, Trabajador y Tipo de tarea.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.98",
+      "fecha": "03-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Corrección de formato de fecha en exportación PDF y Excel de OTs",
+          "descripcion": "Se corrige el formato de la fecha en el reporte PDF (DD/MM/YYYY) y en el nombre del archivo (DD-MM-YYYY) al exportar OTs.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.97",
+      "fecha": "03-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Habilitación de permiso Crear en Flujo de OTL",
+          "descripcion": "Se habilita la opción de asignación del permiso 'Crear' para el módulo de Flujo de OTL.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.96",
+      "fecha": "03-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Visualización de preguntas en listas de chequeo",
+          "descripcion": "Se agregó un nuevo botón que permite ver rápidamente todas las preguntas de una lista de chequeo desde la tabla principal.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.95",
+      "fecha": "30-07-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Transferencias a almacenes de destino",
+          "descripcion": "Se solucionó un problema que impedía realizar transferencias a almacenes de destino sobre los cuales el usuario no contaba con permisos de visualización directa.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.94",
+      "fecha": "30-07-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Corrección en carga inicial de marcadores en mapa",
+          "descripcion": "Se corrigió la visualización inicial del mapa en Planta Externa para mostrar inmediatamente todas las órdenes de trabajo activas al ingresar. Además, se ajustaron los filtros por defecto ocultando de base las órdenes Anuladas y Finalizadas.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.93",
+      "fecha": "30-07-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Corrección en Perfil Técnico",
+          "descripcion": "Se corrige un error en la creación y edición de perfiles técnicos, evitando la selección de tipos de OT deshabilitados.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.92",
+      "fecha": "29-07-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Corrección de error en descargas",
+          "descripcion": "Se corrige el error que existia al intentar descargar excel y pdf en OTS con rango de fechas seleccionado",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.91",
+      "fecha": "28-07-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Configuración de columnas no actualiza automáticamente",
+          "descripcion": "Ahora el sistema permite que en el modal de configuración de columnas el usuario filtre automáticamente cuando se marca o desmarca una casilla.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "inventory",
+          "nombre": "Deshabilitar botón de guardar ítem al pulsar",
+          "descripcion": "Se deshabilita el botón de guardar ítem cuando se pulsa para evitar múltiples clics por parte del usuario.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "inventory",
+          "nombre": "Validación de usuario en listas seleccionables",
+          "descripcion": "Ahora el sistema filtra los usuarios que se muestran en las listas de acuerdo a su permiso en inventario; si no tiene acceso, no se muestra.",
+          "tipo": "fix"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Módulo de control de cambios",
+          "descripcion": "Se implementó un módulo para el control de cambios en el sistema, donde se declaran las versiones con sus cambios/mejoras/implementaciones nuevas del sistema.",
+          "tipo": "novedad"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Versionamiento en menú lateral",
+          "descripcion": "Ahora en el menú lateral del sistema en la parte inferior aparecerá la versión actual del sistema.",
+          "tipo": "novedad"
+        }
+      ]
+    }
+  ]
+}
