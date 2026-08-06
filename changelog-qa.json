@@ -2,19 +2,6 @@
   "versiones": [
     {
       "plataforma": "web",
-      "version": "1.15.103",
-      "fecha": "06-08-2026",
-      "cambios": [
-        {
-          "modulo": "general",
-          "nombre": "Rediseño y soporte multi-plataforma en Notas de Actualización",
-          "descripcion": "Se optimizó el diseño y dimensionamiento del módulo de novedades del sistema, incorporando además la visualización y filtrado de los cambios de las aplicaciones móviles de Gestión Externa e Inventario.",
-          "tipo": "novedad"
-        }
-      ]
-    },
-    {
-      "plataforma": "web",
       "version": "1.15.102",
       "fecha": "05-08-2026",
       "cambios": [
