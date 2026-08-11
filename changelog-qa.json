@@ -1,6 +1,37 @@
 {
   "versiones": [
     {
+      "plataforma": "app_external",
+      "version": "2.0.4",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventario",
+          "nombre": "Optimización de selección de materiales",
+          "descripcion": "Se consolidó la lógica de selección y actualización de materiales para mejorar el control de cantidades y la sincronización del inventario.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ots",
+          "nombre": "Corrección de carga en segundo plano",
+          "descripcion": "Se corrigió la carga de OTS y la actualización de datos cuando la aplicación trabaja en segundo plano.",
+          "tipo": "correccion"
+        },
+        {
+          "modulo": "mapa",
+          "nombre": "Mejoras en mapa y filtros",
+          "descripcion": "Se mejoraron los filtros, la leyenda, las recomendaciones y los paneles inferiores del mapa.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y monitoreo",
+          "descripcion": "Se ampliaron las revisiones de estabilidad y la integración de Sentry en distintos flujos de la aplicación.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
       "plataforma": "web",
       "version": "2.0.2.1",
       "fecha": "11-08-2026",
@@ -62,6 +93,31 @@
           "nombre": "Sistema de novedades",
           "descripcion": "Se implementa una línea de tiempo (timeline) interactivo en el modal de novedades para organizar cronológicamente los cambios y se mejora el formato de las fechas para un mejor seguimiento.",
           "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "2.0.0-beta.6",
+      "fecha": "05-08-2026",
+      "cambios": [
+        {
+          "modulo": "formularios",
+          "nombre": "Corrección de crashes nativos",
+          "descripcion": "Se corrigieron problemas de estabilidad relacionados con animaciones y renderizado de formularios.",
+          "tipo": "correccion"
+        },
+        {
+          "modulo": "monitoreo",
+          "nombre": "Integración de Sentry",
+          "descripcion": "Se amplió la captura de errores JavaScript, nativos y fallos de sincronización.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "inventario",
+          "nombre": "Mejoras en selección de materiales",
+          "descripcion": "Se corrigieron problemas de selección, cantidades y materiales duplicados.",
+          "tipo": "correccion"
         }
       ]
     },
@@ -138,7 +194,7 @@
         {
           "modulo": "internal",
           "nombre": "Habilitación de permiso Crear en Flujo de OTL",
-          "descripcion": "Se habilita la opción de asignación del permiso 'Crear' para el módulo de Flujo de OTL.",
+          "descripcion": "Se habilita la opción de asignación del permiso \"Crear\" para el módulo de Flujo de OTL.",
           "tipo": "mejora"
         }
       ]
@@ -242,6 +298,139 @@
           "nombre": "Versionamiento en menú lateral",
           "descripcion": "Ahora en el menú lateral del sistema en la parte inferior aparecerá la versión actual del sistema.",
           "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "2.0.0",
+      "fecha": "24-07-2026",
+      "cambios": [
+        {
+          "modulo": "ots",
+          "nombre": "Nueva arquitectura de flujos OTS",
+          "descripcion": "Se migraron los flujos OTS a servicios exclusivos de la aplicación y nuevos contratos /api/app.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "sincronizacion",
+          "nombre": "Nueva sincronización offline",
+          "descripcion": "Se incorporó una cola durable para sincronización offline de formularios, inventario e imágenes.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ubicacion",
+          "nombre": "Módulo nativo de geolocalización",
+          "descripcion": "Se incorporó un módulo nativo para gestionar ubicación y rutas en segundo plano.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "android",
+          "nombre": "Separación de ambientes",
+          "descripcion": "Se habilitaron variantes independientes para QA y producción.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.11",
+      "fecha": "17-06-2026",
+      "cambios": [
+        {
+          "modulo": "versionado",
+          "nombre": "Actualización de versión",
+          "descripcion": "Se alinearon las versiones y números de compilación de Android, iOS y Expo.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.10",
+      "fecha": "27-03-2026",
+      "cambios": [
+        {
+          "modulo": "infraestructura",
+          "nombre": "Actualización de infraestructura",
+          "descripcion": "Se realizaron ajustes para soportar la nueva infraestructura de servicios.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "formularios",
+          "nombre": "Límite de caracteres",
+          "descripcion": "Se estableció un límite de caracteres para los campos de texto.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.7",
+      "fecha": "22-12-2025",
+      "cambios": [
+        {
+          "modulo": "android",
+          "nombre": "Configuración de compilación Android",
+          "descripcion": "Se agregó configuración adicional para Android y se corrigió el uso de FileSystem.",
+          "tipo": "correccion"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.6",
+      "fecha": "13-11-2025",
+      "cambios": [
+        {
+          "modulo": "android",
+          "nombre": "Compatibilidad con páginas de memoria de 16 KB",
+          "descripcion": "Se actualizó la configuración Android para cumplir los requisitos de Google Play.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "dependencias",
+          "nombre": "Actualización de dependencias",
+          "descripcion": "Se reinforced dependencias y configuraciones de compilación.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.1.3",
+      "fecha": "16-10-2025",
+      "cambios": [
+        {
+          "modulo": "autenticacion",
+          "nombre": "Visualización de versión en el login",
+          "descripcion": "Se agregó la versión visible de la aplicación en la pantalla de inicio de sesión.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ots",
+          "nombre": "Historial del cliente",
+          "descripcion": "Se incorporó un modal para consultar el historial del cliente y navegar hacia el resumen de la OTS.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "firmas",
+          "nombre": "Validación previa a la firma",
+          "descripcion": "Se agregó validación de formularios antes de permitir la captura de firmas.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.0.2",
+      "fecha": "15-10-2025",
+      "cambios": [
+        {
+          "modulo": "formularios",
+          "nombre": "Correcciones iniciales de formularios",
+          "descripcion": "Se corrigieron problemas en selectores y validaciones de formularios OTS.",
+          "tipo": "correccion"
         }
       ]
     }
