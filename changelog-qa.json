@@ -1,5 +1,31 @@
 {
   "versiones": [
+     {
+      "plataforma": "web",
+      "version": "2.0.0.2",
+      "fecha": "10-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Homologación visual en botones de alerta",
+          "descripcion": "Se estandarizó el color de los botones de confirmación en los modales y alertas del sistema con la paleta de colores institucional, ofreciendo una experiencia más uniforme.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.0.1",
+      "fecha": "10-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Sistema de novedades",
+          "descripcion": "Se implementa una línea de tiempo (timeline) interactivo en el modal de novedades para organizar cronológicamente los cambios y se mejora el formato de las fechas para un mejor seguimiento.",
+          "tipo": "mejora"
+        }
+      ]
+    },
     {
       "plataforma": "web",
       "version": "1.15.102",
