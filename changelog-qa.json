@@ -1,6 +1,32 @@
 {
   "versiones": [
-     {
+    {
+      "plataforma": "web",
+      "version": "2.0.1.2",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Limpieza y optimización del sistema",
+          "descripcion": "Depuración de archivos no utilizados y optimización general de rendimiento en la plataforma.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.1.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventario",
+          "nombre": "Corrección de ID en aprobaciones de bodega",
+          "descripcion": "Se corrige el campo ID en aprobaciones de bodega para mostrar el correlativo por organización. Además, se mejora la etiqueta del tipo de movimiento en la asignación de reserva a bodega móvil.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
       "plataforma": "web",
       "version": "2.0.0.2",
       "fecha": "10-08-2026",
