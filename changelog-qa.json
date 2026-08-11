@@ -1,6 +1,32 @@
 {
   "versiones": [
     {
+      "plataforma": "web",
+      "version": "2.0.4.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Acceso directo a Importación Masiva en la barra de navegación",
+          "descripcion": "Se trasladó la funcionalidad de Importación Masiva desde la sección de reportes hacia el menú de navegación principal de Gestión Externa (Navbar), facilitando un acceso más rápido y directo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.3.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Control de versiones para App Gestión Externa en Novedades",
+          "descripcion": "Se integró una gestión precisa del control de versiones de la aplicación móvil de Gestión Externa (App External) dentro del sistema de novedades.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
       "plataforma": "app_external",
       "version": "2.0.4",
       "fecha": "11-08-2026",
