@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.0.2.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Corrección de actualización de tipo de OTL",
+          "descripcion": "Se puede editar un tipo de OTL manteniendo su nombre.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.0.1.2",
       "fecha": "11-08-2026",
       "cambios": [
