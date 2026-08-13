@@ -18,9 +18,12 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+
           if ! git diff --quiet change-test2.json; then
             git add change-test2.json
-                    git commit -m "sync: sincronización automática de test a test2 [skip ci]"
+            git commit -m "sync: sincronización automática de test a test2 [skip ci]"
             git push
           else
             echo "No hay cambios pendientes por sincronizar."
