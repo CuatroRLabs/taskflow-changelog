@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.0.8.2",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Se añade columna a sección de OTS",
+          "descripcion": "Se agrega columna de grupo de trabajo a la sección de OTS.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.0.7.2",
       "fecha": "13-08-2026",
       "cambios": [
