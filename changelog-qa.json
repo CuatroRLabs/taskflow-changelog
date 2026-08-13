@@ -2,6 +2,38 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.0.6.1",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Mejora visual y de lectura en la ventana de agendamiento de tareas",
+          "descripcion": "Se optimizó la ventana para asignar hora a las tareas: los botones de confirmación y el selector de hora permanecen fijos al fondo de la ventana, la lista de horas abre hacia arriba para evitar que se corte y las descripciones largas incluyen la opción 'ver más / ver menos' para una lectura más cómoda.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Corrección en el arrastre de tareas en la vista semanal",
+          "descripcion": "Se corrigió un detalle visual que desplazaba las tareas guardadas hacia abajo al arrastrar una nueva tarea a un día que ya tenía órdenes programadas.",
+          "tipo": "correccion"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.5.1",
+      "fecha": "12-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Modal secciones en Formulario",
+          "descripcion": "Se modificó la lógica del modal y ahora no se cierra al guardar un registro en secciones.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.0.4.1",
       "fecha": "11-08-2026",
       "cambios": [
