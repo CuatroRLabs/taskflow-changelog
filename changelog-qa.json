@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.0.9.1",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Se mejoran colores y estilos visuales en Configuración de Equipos",
+          "descripcion": "Se mejora los estilos visuales en tabla de Equipos adptándolos al estándar de Taskflow.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.0.8.2",
       "fecha": "13-08-2026",
       "cambios": [
