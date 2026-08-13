@@ -1,0 +1,464 @@
+{
+  "versiones": [
+    {
+      "plataforma": "web",
+      "version": "2.0.4.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Acceso directo a Importación Masiva en la barra de navegación",
+          "descripcion": "Se trasladó la funcionalidad de Importación Masiva desde la sección de reportes hacia el menú de navegación principal de Gestión Externa (Navbar), facilitando un acceso más rápido y directo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.3.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Control de versiones para App Gestión Externa en Novedades",
+          "descripcion": "Se integró una gestión precisa del control de versiones de la aplicación móvil de Gestión Externa (App External) dentro del sistema de novedades.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "2.0.4",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventario",
+          "nombre": "Optimización de selección de materiales",
+          "descripcion": "Se consolidó la lógica de selección y actualización de materiales para mejorar el control de cantidades y la sincronización del inventario.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ots",
+          "nombre": "Corrección de carga en segundo plano",
+          "descripcion": "Se corrigió la carga de OTS y la actualización de datos cuando la aplicación trabaja en segundo plano.",
+          "tipo": "correccion"
+        },
+        {
+          "modulo": "mapa",
+          "nombre": "Mejoras en mapa y filtros",
+          "descripcion": "Se mejoraron los filtros, la leyenda, las recomendaciones y los paneles inferiores del mapa.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y monitoreo",
+          "descripcion": "Se ampliaron las revisiones de estabilidad y la integración de Sentry en distintos flujos de la aplicación.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.2.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Corrección de actualización de tipo de OTL",
+          "descripcion": "Se puede editar un tipo de OTL manteniendo su nombre.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.1.2",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Limpieza y optimización del sistema",
+          "descripcion": "Depuración de archivos no utilizados y optimización general de rendimiento en la plataforma.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.1.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventario",
+          "nombre": "Corrección de ID en aprobaciones de bodega",
+          "descripcion": "Se corrige el campo ID en aprobaciones de bodega para mostrar el correlativo por organización. Además, se mejora la etiqueta del tipo de movimiento en la asignación de reserva a bodega móvil.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.0.2",
+      "fecha": "10-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Homologación visual en botones de alerta",
+          "descripcion": "Se estandarizó el color de los botones de confirmación en los modales y alertas del sistema con la paleta de colores institucional, ofreciendo una experiencia más uniforme.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.0.1",
+      "fecha": "10-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Sistema de novedades",
+          "descripcion": "Se implementa una línea de tiempo (timeline) interactivo en el modal de novedades para organizar cronológicamente los cambios y se mejora el formato de las fechas para un mejor seguimiento.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "2.0.0-beta.6",
+      "fecha": "05-08-2026",
+      "cambios": [
+        {
+          "modulo": "formularios",
+          "nombre": "Corrección de crashes nativos",
+          "descripcion": "Se corrigieron problemas de estabilidad relacionados con animaciones y renderizado de formularios.",
+          "tipo": "correccion"
+        },
+        {
+          "modulo": "monitoreo",
+          "nombre": "Integración de Sentry",
+          "descripcion": "Se amplió la captura de errores JavaScript, nativos y fallos de sincronización.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "inventario",
+          "nombre": "Mejoras en selección de materiales",
+          "descripcion": "Se corrigieron problemas de selección, cantidades y materiales duplicados.",
+          "tipo": "correccion"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.102",
+      "fecha": "05-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Mejora en mensaje informativo al desactivar Tipos de OT",
+          "descripcion": "Se clarifica el texto de confirmación al desactivar un tipo de OT, detallando el impacto en perfiles técnicos y el listado completo de estados activos que bloquean su desactivación.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.101",
+      "fecha": "05-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Se agregaron nuevos permisos para el módulo de Inventario",
+          "descripcion": "Se crearon permisos para Ubicaciones, Transferencias y Eliminador de transacciones en el módulo de Inventario",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.100",
+      "fecha": "04-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Visualización de listas de chequeo en Planta Externa",
+          "descripcion": "Se agregó un nuevo botón que permite ver rápidamente todas las preguntas de una lista de chequeo desde la tabla principal",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.99",
+      "fecha": "03-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Ordenamiento en tabla de OTS",
+          "descripcion": "Se habilita el ordenamiento ascendente/descendente en las columnas Cliente, Descripción, Dirección, Trabajador y Tipo de tarea.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.98",
+      "fecha": "03-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Corrección de formato de fecha en exportación PDF y Excel de OTs",
+          "descripcion": "Se corrige el formato de la fecha en el reporte PDF (DD/MM/YYYY) y en el nombre del archivo (DD-MM-YYYY) al exportar OTs.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.97",
+      "fecha": "03-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Habilitación de permiso Crear en Flujo de OTL",
+          "descripcion": "Se habilita la opción de asignación del permiso \"Crear\" para el módulo de Flujo de OTL.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.96",
+      "fecha": "03-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Visualización de preguntas en listas de chequeo",
+          "descripcion": "Se agregó un nuevo botón que permite ver rápidamente todas las preguntas de una lista de chequeo desde la tabla principal.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.95",
+      "fecha": "30-07-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Transferencias a almacenes de destino",
+          "descripcion": "Se solucionó un problema que impedía realizar transferencias a almacenes de destino sobre los cuales el usuario no contaba con permisos de visualización directa.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.94",
+      "fecha": "30-07-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Corrección en carga inicial de marcadores en mapa",
+          "descripcion": "Se corrigió la visualización inicial del mapa en Planta Externa para mostrar inmediatamente todas las órdenes de trabajo activas al ingresar. Además, se ajustaron los filtros por defecto ocultando de base las órdenes Anuladas y Finalizadas.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.93",
+      "fecha": "30-07-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Corrección en Perfil Técnico",
+          "descripcion": "Se corrige un error en la creación y edición de perfiles técnicos, evitando la selección de tipos de OT deshabilitados.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.92",
+      "fecha": "29-07-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Corrección de error en descargas",
+          "descripcion": "Se corrige el error que existia al intentar descargar excel y pdf en OTS con rango de fechas seleccionado",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.91",
+      "fecha": "28-07-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Configuración de columnas no actualiza automáticamente",
+          "descripcion": "Ahora el sistema permite que en el modal de configuración de columnas el usuario filtre automáticamente cuando se marca o desmarca una casilla.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "inventory",
+          "nombre": "Deshabilitar botón de guardar ítem al pulsar",
+          "descripcion": "Se deshabilita el botón de guardar ítem cuando se pulsa para evitar múltiples clics por parte del usuario.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "inventory",
+          "nombre": "Validación de usuario en listas seleccionables",
+          "descripcion": "Ahora el sistema filtra los usuarios que se muestran en las listas de acuerdo a su permiso en inventario; si no tiene acceso, no se muestra.",
+          "tipo": "fix"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Módulo de control de cambios",
+          "descripcion": "Se implementó un módulo para el control de cambios en el sistema, donde se declaran las versiones con sus cambios/mejoras/implementaciones nuevas del sistema.",
+          "tipo": "novedad"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Versionamiento en menú lateral",
+          "descripcion": "Ahora en el menú lateral del sistema en la parte inferior aparecerá la versión actual del sistema.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "2.0.0",
+      "fecha": "24-07-2026",
+      "cambios": [
+        {
+          "modulo": "ots",
+          "nombre": "Nueva arquitectura de flujos OTS",
+          "descripcion": "Se migraron los flujos OTS a servicios exclusivos de la aplicación y nuevos contratos /api/app.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "sincronizacion",
+          "nombre": "Nueva sincronización offline",
+          "descripcion": "Se incorporó una cola durable para sincronización offline de formularios, inventario e imágenes.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ubicacion",
+          "nombre": "Módulo nativo de geolocalización",
+          "descripcion": "Se incorporó un módulo nativo para gestionar ubicación y rutas en segundo plano.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "android",
+          "nombre": "Separación de ambientes",
+          "descripcion": "Se habilitaron variantes independientes para QA y producción.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.11",
+      "fecha": "17-06-2026",
+      "cambios": [
+        {
+          "modulo": "versionado",
+          "nombre": "Actualización de versión",
+          "descripcion": "Se alinearon las versiones y números de compilación de Android, iOS y Expo.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.10",
+      "fecha": "27-03-2026",
+      "cambios": [
+        {
+          "modulo": "infraestructura",
+          "nombre": "Actualización de infraestructura",
+          "descripcion": "Se realizaron ajustes para soportar la nueva infraestructura de servicios.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "formularios",
+          "nombre": "Límite de caracteres",
+          "descripcion": "Se estableció un límite de caracteres para los campos de texto.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.7",
+      "fecha": "22-12-2025",
+      "cambios": [
+        {
+          "modulo": "android",
+          "nombre": "Configuración de compilación Android",
+          "descripcion": "Se agregó configuración adicional para Android y se corrigió el uso de FileSystem.",
+          "tipo": "correccion"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.6",
+      "fecha": "13-11-2025",
+      "cambios": [
+        {
+          "modulo": "android",
+          "nombre": "Compatibilidad con páginas de memoria de 16 KB",
+          "descripcion": "Se actualizó la configuración Android para cumplir los requisitos de Google Play.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "dependencias",
+          "nombre": "Actualización de dependencias",
+          "descripcion": "Se reinforced dependencias y configuraciones de compilación.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.1.3",
+      "fecha": "16-10-2025",
+      "cambios": [
+        {
+          "modulo": "autenticacion",
+          "nombre": "Visualización de versión en el login",
+          "descripcion": "Se agregó la versión visible de la aplicación en la pantalla de inicio de sesión.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ots",
+          "nombre": "Historial del cliente",
+          "descripcion": "Se incorporó un modal para consultar el historial del cliente y navegar hacia el resumen de la OTS.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "firmas",
+          "nombre": "Validación previa a la firma",
+          "descripcion": "Se agregó validación de formularios antes de permitir la captura de firmas.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.0.2",
+      "fecha": "15-10-2025",
+      "cambios": [
+        {
+          "modulo": "formularios",
+          "nombre": "Correcciones iniciales de formularios",
+          "descripcion": "Se corrigieron problemas en selectores y validaciones de formularios OTS.",
+          "tipo": "correccion"
+        }
+      ]
+    }
+  ]
+}

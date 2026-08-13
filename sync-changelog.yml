@@ -1,0 +1,27 @@
+name: Sync QA to PROD changelog
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: copy change-test.json to change-test2.json
+        run: cp change-test.json change-test2.json
+
+      - name: Commit and push changes
+        run: |
+          if ! git diff --quiet change-test2.json; then
+            git add change-test2.json
+                    git commit -m "sync: sincronización automática de test a test2 [skip ci]"
+            git push
+          else
+            echo "No hay cambios pendientes por sincronizar."
+          fi
