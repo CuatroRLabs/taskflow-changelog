@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.0.7.2",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Mantenimiento y cambios menores del sistema",
+          "descripcion": "Se realizaron mejoras internas en la estructura de Taskflow.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.0.7.1",
       "fecha": "13-08-2026",
       "cambios": [
