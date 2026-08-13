@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.0.7.1",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Clarificar mensaje de aprobación requerida en movimientos",
+          "descripcion": "Se clarifica el mensaje de aprobación requerida en movimientos de Inventario.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.0.6.1",
       "fecha": "13-08-2026",
       "cambios": [
