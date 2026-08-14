@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.9.2",
+      "fecha": "14-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Mantenimiento y mejoras menores del sistema",
+          "descripcion": "Se mejora la recopilación de información cuando ocurre un error en el sistema.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.9.1",
       "fecha": "14-08-2026",
       "cambios": [
