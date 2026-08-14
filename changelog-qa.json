@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.9.1",
+      "fecha": "14-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Exportación a Excel en Detalle de Ítem de Almacenes",
+          "descripcion": "Se agrega botón para exportar a Excel el listado de seriales en el modal de Detalle de Ítem.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.0.9.1",
       "fecha": "13-08-2026",
       "cambios": [
