@@ -2,6 +2,45 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.12.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Clarificación mensaje Importación Masiva",
+          "descripcion": "Se clarifica el mensaje 'Importanción Masiva OTS', para evitar confundir con texto ambiguo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.11.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Nueva ubicación para el botón Crear OTS",
+          "descripcion": "El botón para crear nuevas órdenes de trabajo ahora se encuentra al lado del buscador en la pantalla de OTS, facilitando su acceso y manteniendo el mismo diseño que en las demás secciones del sistema.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.10.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Nueva ubicación para el botón Crear OTL",
+          "descripcion": "El botón para crear nuevas órdenes de trabajo de taller ahora se encuentra ubicado al lado del buscador en la pantalla de OTL, haciendo más cómodo su acceso y manteniendo la coherencia con las demás pantallas del sistema.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.9.2",
       "fecha": "14-08-2026",
       "cambios": [
