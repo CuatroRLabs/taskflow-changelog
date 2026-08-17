@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.13.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Reordenamiento de secciones en formularios",
+          "descripcion": "Ahora se puede cambiar el orden de las secciones en tus formularios arrastrando y soltando cada elemento. Esta opción se habilita automáticamente cuando todas las secciones cuentan con al menos una pregunta o detalle guardado, actualizando la numeración de forma automática.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.12.1",
       "fecha": "17-08-2026",
       "cambios": [
