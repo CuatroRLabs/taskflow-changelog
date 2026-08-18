@@ -2,6 +2,32 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.15.1",
+      "fecha": "18-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Barra de navegación adaptativa con menú inteligente (+ Más)",
+          "descripcion": "Se optimizó el menú superior en todos los módulos (Inventario, Gestión Interna y Gestión Externa) para ajustarse automáticamente al tamaño de cualquier pantalla o laptop. Si el espacio disponible es reducido, las opciones secundarias se agrupan de forma ordenada dentro del nuevo botón '+ Más', garantizando que todos los enlaces y accesos de usuario se mantengan siempre visibles y cómodos de usar.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.14.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Acceso directo a Transferencias en el menú principal",
+          "descripcion": "El módulo de Transferencias entre organizaciones ahora se encuentra integrado directamente en la barra superior de Inventario. Desde allí podrás crear solicitudes, consultar el historial y gestionar las aprobaciones de traspasos de manera más rápida y centralizada, sin depender de accesos flotantes dentro de la vista de almacenes.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.13.1",
       "fecha": "17-08-2026",
       "cambios": [
