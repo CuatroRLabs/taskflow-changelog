@@ -2,7 +2,342 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.15.1",
+      "fecha": "18-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Barra de navegación adaptativa con menú inteligente (+ Más)",
+          "descripcion": "Se optimizó el menú superior en todos los módulos (Inventario, Gestión Interna y Gestión Externa) para ajustarse automáticamente al tamaño de cualquier pantalla o laptop. Si el espacio disponible es reducido, las opciones secundarias se agrupan de forma ordenada dentro del nuevo botón '+ Más', garantizando que todos los enlaces y accesos de usuario se mantengan siempre visibles y cómodos de usar.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.14.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Acceso directo a Transferencias en el menú principal",
+          "descripcion": "El módulo de Transferencias entre organizaciones ahora se encuentra integrado directamente en la barra superior de Inventario. Desde allí podrás crear solicitudes, consultar el historial y gestionar las aprobaciones de traspasos de manera más rápida y centralizada, sin depender de accesos flotantes dentro de la vista de almacenes.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.13.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Reordenamiento de secciones en formularios",
+          "descripcion": "Ahora se puede cambiar el orden de las secciones en tus formularios arrastrando y soltando cada elemento. Esta opción se habilita automáticamente cuando todas las secciones cuentan con al menos una pregunta o detalle guardado, actualizando la numeración de forma automática.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.12.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Clarificación mensaje Importación Masiva",
+          "descripcion": "Se clarifica el mensaje 'Importanción Masiva OTS', para evitar confundir con texto ambiguo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.11.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Nueva ubicación para el botón Crear OTS",
+          "descripcion": "El botón para crear nuevas órdenes de trabajo ahora se encuentra al lado del buscador en la pantalla de OTS, facilitando su acceso y manteniendo el mismo diseño que en las demás secciones del sistema.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.10.1",
+      "fecha": "17-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Nueva ubicación para el botón Crear OTL",
+          "descripcion": "El botón para crear nuevas órdenes de trabajo de taller ahora se encuentra ubicado al lado del buscador en la pantalla de OTL, haciendo más cómodo su acceso y manteniendo la coherencia con las demás pantallas del sistema.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.9.2",
+      "fecha": "14-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Mantenimiento y mejoras menores del sistema",
+          "descripcion": "Se mejora la recopilación de información cuando ocurre un error en el sistema.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.9.1",
+      "fecha": "14-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Exportación a Excel en Detalle de Ítem de Almacenes",
+          "descripcion": "Se agrega botón para exportar a Excel el listado de seriales en el modal de Detalle de Ítem.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.9.1",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Se mejoran colores y estilos visuales en Configuración de Equipos",
+          "descripcion": "Se mejora los estilos visuales en tabla de Equipos adptándolos al estándar de Taskflow.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.8.2",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Se añade columna a sección de OTS",
+          "descripcion": "Se agrega columna de grupo de trabajo a la sección de OTS.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.7.2",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Mantenimiento y cambios menores del sistema",
+          "descripcion": "Se realizaron mejoras internas en la estructura de Taskflow.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.7.1",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Clarificar mensaje de aprobación requerida en movimientos",
+          "descripcion": "Se clarifica el mensaje de aprobación requerida en movimientos de Inventario.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.6.1",
+      "fecha": "13-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Mejora visual y de lectura en la ventana de agendamiento de tareas",
+          "descripcion": "Se optimizó la ventana para asignar hora a las tareas: los botones de confirmación y el selector de hora permanecen fijos al fondo de la ventana, la lista de horas abre hacia arriba para evitar que se corte y las descripciones largas incluyen la opción 'ver más / ver menos' para una lectura más cómoda.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Corrección en el arrastre de tareas en la vista semanal",
+          "descripcion": "Se corrigió un detalle visual que desplazaba las tareas guardadas hacia abajo al arrastrar una nueva tarea a un día que ya tenía órdenes programadas.",
+          "tipo": "correccion"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.5.1",
+      "fecha": "12-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Modal secciones en Formulario",
+          "descripcion": "Se modificó la lógica del modal y ahora no se cierra al guardar un registro en secciones.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.4.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Acceso directo a Importación Masiva en la barra de navegación",
+          "descripcion": "Se trasladó la funcionalidad de Importación Masiva desde la sección de reportes hacia el menú de navegación principal de Gestión Externa (Navbar), facilitando un acceso más rápido y directo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.3.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Control de versiones para App Gestión Externa en Novedades",
+          "descripcion": "Se integró una gestión precisa del control de versiones de la aplicación móvil de Gestión Externa (App External) dentro del sistema de novedades.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "2.0.4",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventario",
+          "nombre": "Optimización de selección de materiales",
+          "descripcion": "Se consolidó la lógica de selección y actualización de materiales para mejorar el control de cantidades y la sincronización del inventario.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ots",
+          "nombre": "Corrección de carga en segundo plano",
+          "descripcion": "Se corrigió la carga de OTS y la actualización de datos cuando la aplicación trabaja en segundo plano.",
+          "tipo": "correccion"
+        },
+        {
+          "modulo": "mapa",
+          "nombre": "Mejoras en mapa y filtros",
+          "descripcion": "Se mejoraron los filtros, la leyenda, las recomendaciones y los paneles inferiores del mapa.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y monitoreo",
+          "descripcion": "Se ampliaron las revisiones de estabilidad y la integración de Sentry en distintos flujos de la aplicación.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.2.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Corrección de actualización de tipo de OTL",
+          "descripcion": "Se puede editar un tipo de OTL manteniendo su nombre.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.1.2",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Limpieza y optimización del sistema",
+          "descripcion": "Depuración de archivos no utilizados y optimización general de rendimiento en la plataforma.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.1.1",
+      "fecha": "11-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventario",
+          "nombre": "Corrección de ID en aprobaciones de bodega",
+          "descripcion": "Se corrige el campo ID en aprobaciones de bodega para mostrar el correlativo por organización. Además, se mejora la etiqueta del tipo de movimiento en la asignación de reserva a bodega móvil.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.0.0.2",
+      "fecha": "10-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Homologación visual en botones de alerta",
+          "descripcion": "Se estandarizó el color de los botones de confirmación en los modales y alertas del sistema con la paleta de colores institucional, ofreciendo una experiencia más uniforme.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.0.0.1",
+      "fecha": "10-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Sistema de novedades",
+          "descripcion": "Se implementa una línea de tiempo (timeline) interactivo en el modal de novedades para organizar cronológicamente los cambios y se mejora el formato de las fechas para un mejor seguimiento.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "2.0.0-beta.6",
+      "fecha": "05-08-2026",
+      "cambios": [
+        {
+          "modulo": "formularios",
+          "nombre": "Corrección de crashes nativos",
+          "descripcion": "Se corrigieron problemas de estabilidad relacionados con animaciones y renderizado de formularios.",
+          "tipo": "correccion"
+        },
+        {
+          "modulo": "monitoreo",
+          "nombre": "Integración de Sentry",
+          "descripcion": "Se amplió la captura de errores JavaScript, nativos y fallos de sincronización.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "inventario",
+          "nombre": "Mejoras en selección de materiales",
+          "descripcion": "Se corrigieron problemas de selección, cantidades y materiales duplicados.",
+          "tipo": "correccion"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "1.15.102",
       "fecha": "05-08-2026",
       "cambios": [
         {
@@ -73,7 +408,7 @@
         {
           "modulo": "internal",
           "nombre": "Habilitación de permiso Crear en Flujo de OTL",
-          "descripcion": "Se habilita la opción de asignación del permiso 'Crear' para el módulo de Flujo de OTL.",
+          "descripcion": "Se habilita la opción de asignación del permiso \"Crear\" para el módulo de Flujo de OTL.",
           "tipo": "mejora"
         }
       ]
@@ -177,6 +512,139 @@
           "nombre": "Versionamiento en menú lateral",
           "descripcion": "Ahora en el menú lateral del sistema en la parte inferior aparecerá la versión actual del sistema.",
           "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "2.0.0",
+      "fecha": "24-07-2026",
+      "cambios": [
+        {
+          "modulo": "ots",
+          "nombre": "Nueva arquitectura de flujos OTS",
+          "descripcion": "Se migraron los flujos OTS a servicios exclusivos de la aplicación y nuevos contratos /api/app.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "sincronizacion",
+          "nombre": "Nueva sincronización offline",
+          "descripcion": "Se incorporó una cola durable para sincronización offline de formularios, inventario e imágenes.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ubicacion",
+          "nombre": "Módulo nativo de geolocalización",
+          "descripcion": "Se incorporó un módulo nativo para gestionar ubicación y rutas en segundo plano.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "android",
+          "nombre": "Separación de ambientes",
+          "descripcion": "Se habilitaron variantes independientes para QA y producción.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.11",
+      "fecha": "17-06-2026",
+      "cambios": [
+        {
+          "modulo": "versionado",
+          "nombre": "Actualización de versión",
+          "descripcion": "Se alinearon las versiones y números de compilación de Android, iOS y Expo.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.10",
+      "fecha": "27-03-2026",
+      "cambios": [
+        {
+          "modulo": "infraestructura",
+          "nombre": "Actualización de infraestructura",
+          "descripcion": "Se realizaron ajustes para soportar la nueva infraestructura de servicios.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "formularios",
+          "nombre": "Límite de caracteres",
+          "descripcion": "Se estableció un límite de caracteres para los campos de texto.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.7",
+      "fecha": "22-12-2025",
+      "cambios": [
+        {
+          "modulo": "android",
+          "nombre": "Configuración de compilación Android",
+          "descripcion": "Se agregó configuración adicional para Android y se corrigió el uso de FileSystem.",
+          "tipo": "correccion"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.5.6",
+      "fecha": "13-11-2025",
+      "cambios": [
+        {
+          "modulo": "android",
+          "nombre": "Compatibilidad con páginas de memoria de 16 KB",
+          "descripcion": "Se actualizó la configuración Android para cumplir los requisitos de Google Play.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "dependencias",
+          "nombre": "Actualización de dependencias",
+          "descripcion": "Se reinforced dependencias y configuraciones de compilación.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.1.3",
+      "fecha": "16-10-2025",
+      "cambios": [
+        {
+          "modulo": "autenticacion",
+          "nombre": "Visualización de versión en el login",
+          "descripcion": "Se agregó la versión visible de la aplicación en la pantalla de inicio de sesión.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "ots",
+          "nombre": "Historial del cliente",
+          "descripcion": "Se incorporó un modal para consultar el historial del cliente y navegar hacia el resumen de la OTS.",
+          "tipo": "funcionalidad"
+        },
+        {
+          "modulo": "firmas",
+          "nombre": "Validación previa a la firma",
+          "descripcion": "Se agregó validación de formularios antes de permitir la captura de firmas.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "app_external",
+      "version": "1.0.2",
+      "fecha": "15-10-2025",
+      "cambios": [
+        {
+          "modulo": "formularios",
+          "nombre": "Correcciones iniciales de formularios",
+          "descripcion": "Se corrigieron problemas en selectores y validaciones de formularios OTS.",
+          "tipo": "correccion"
         }
       ]
     }
