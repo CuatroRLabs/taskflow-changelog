@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.15.2",
+      "fecha": "19-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Corrección en visualización de remitentes y selección de destinatarios",
+          "descripcion": "Se corrigió la visualización del remitente en el historial de mensajes para todos los usuarios de la organización y se mejoraron los mensajes informativos al seleccionar o buscar destinatarios en nuevas notificaciones.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.15.1",
       "fecha": "18-08-2026",
       "cambios": [
