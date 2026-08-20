@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.17.1",
+      "fecha": "20-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Notificación informativa en salidas técnicas que requieren aprobación",
+          "descripcion": "Se ajustó la notificación al registrar salidas a técnico que quedan pendientes de aprobación, mostrándose ahora como mensaje informativo (Info) en lugar de confirmación de éxito directo.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.16.1",
       "fecha": "19-08-2026",
       "cambios": [
