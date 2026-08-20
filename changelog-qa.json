@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.18.1",
+      "fecha": "20-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Reorganización y estandarización de menús laterales (Sidebars)",
+          "descripcion": "Se reestructuraron y alinearon los accesos de los menús laterales en Gestión Externa, Gestión Interna e Inventario, listando primero los accesos de administración y comunes, seguidos de las opciones específicas de cada módulo ordenadas alfabéticamente.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.17.1",
       "fecha": "20-08-2026",
       "cambios": [
