@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.19.1",
+      "fecha": "26-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Control de permisos al rechazar transferencias entre organizaciones",
+          "descripcion": "Se incorporó la validación del rol de aprobador al momento de rechazar transferencias entre organizaciones, asegurando que solo los usuarios autorizados de la organización puedan realizar esta acción.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.18.1",
       "fecha": "20-08-2026",
       "cambios": [
