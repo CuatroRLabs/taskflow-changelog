@@ -2,6 +2,58 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.1.19.1",
+      "fecha": "26-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Control de permisos al rechazar transferencias entre organizaciones",
+          "descripcion": "Se incorporó la validación del rol de aprobador al momento de rechazar transferencias entre organizaciones, asegurando que solo los usuarios autorizados de la organización puedan realizar esta acción.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.18.1",
+      "fecha": "20-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Reorganización y estandarización de menús laterales (Sidebars)",
+          "descripcion": "Se reestructuraron y alinearon los accesos de los menús laterales en Gestión Externa, Gestión Interna e Inventario, listando primero los accesos de administración y comunes, seguidos de las opciones específicas de cada módulo ordenadas alfabéticamente.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.17.1",
+      "fecha": "20-08-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Notificación informativa en salidas técnicas que requieren aprobación",
+          "descripcion": "Se ajustó la notificación al registrar salidas a técnico que quedan pendientes de aprobación, mostrándose ahora como mensaje informativo (Info) en lugar de confirmación de éxito directo.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.1.16.1",
+      "fecha": "19-08-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Corrección en visualización de remitentes y selección de destinatarios",
+          "descripcion": "Se corrigió la visualización del remitente en el historial de mensajes para todos los usuarios de la organización y se mejoraron los mensajes informativos al seleccionar o buscar destinatarios en nuevas notificaciones.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.15.1",
       "fecha": "18-08-2026",
       "cambios": [
