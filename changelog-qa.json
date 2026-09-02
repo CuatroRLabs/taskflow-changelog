@@ -2,6 +2,37 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.19.1",
+      "fecha": "02-09-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Nuevo diseño en agenda",
+          "descripcion": "Rediseñamos por completo la agenda: ahora puedes organizar el día arrastrando tareas y órdenes entre los trabajadores y sus horarios, con un panel lateral para ver las órdenes pendientes por agendar.",
+          "tipo": "novedad"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Filtros avanzados en la agenda",
+          "descripcion": "Agregamos filtros con selección múltiple por grupo de trabajo, perfil técnico y perfil operativo, con buscador integrado. Además, puedes buscar una orden directamente por su número y limpiar todos los filtros con un solo click.",
+          "tipo": "novedad"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Detalle de órdenes unificado",
+          "descripcion": "El detalle de las órdenes de trabajo ahora es una única vista consistente, tanto si la abres desde la agenda como desde el listado de OTS, con la misma información y acciones en ambos lugares.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Selección de calidad al descargar reportes PDF",
+          "descripcion": "Ahora la opción de elegir la calidad del PDF se muestra siempre al descargar los reportes de OTS, y no solo cuando el reporte incluye fotografías.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.1.19.1",
       "fecha": "26-08-2026",
       "cambios": [
