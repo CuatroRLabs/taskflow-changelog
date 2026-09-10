@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.22.2",
+      "fecha": "07-09-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Mejora modal editar OTS",
+          "descripcion": "Se mejoró el modal de editar OTS para evitar cargas asíncronas de datos.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.21.1",
       "fecha": "07-09-2026",
       "cambios": [
