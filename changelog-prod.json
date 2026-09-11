@@ -2,37 +2,50 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.22.2",
+      "fecha": "07-09-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Mejora modal editar OTS",
+          "descripcion": "Se mejoró el modal de editar OTS para evitar cargas asíncronas de datos.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.21.1",
       "fecha": "07-09-2026",
       "cambios": [
         {
           "modulo": "external",
           "nombre": "Nuevos filtros flotantes",
-          "descripcion": "Se agregó un panel de filtros flotante sobre el mapa que permite filtrar por rango de fechas, estados de órdenes de trabajo (con contador por estado) y controlar la visualización de capas: calles, tráfico en vivo, negocios, parques, transporte y etiquetas POI. Además se incluyó el botón para restablecer los filtros.",
+          "descripcion": "Mapa: Se agregó un panel de filtros flotante sobre el mapa que permite filtrar por rango de fechas, estados de órdenes de trabajo (con contador por estado) y controlar la visualización de capas: calles, tráfico en vivo, negocios, parques, transporte y etiquetas POI. Además se incluyó el botón para restablecer los filtros.",
           "tipo": "novedad"
         },
         {
           "modulo": "external",
           "nombre": "Panel lateral de órdenes de trabajo",
-          "descripcion": "Se incorporó un panel lateral plegable con pestañas 'OTS' y 'Por agendar' que muestra el listado de órdenes visibles en el mapa, con contadores por pestaña, ordenamiento por prioridad y acceso al detalle completo de cada orden.",
+          "descripcion": "Mapa: Se incorporó un panel lateral plegable con pestañas 'OTS' y 'Por agendar' que muestra el listado de órdenes visibles en el mapa, con contadores por pestaña, ordenamiento por prioridad y acceso al detalle completo de cada orden.",
           "tipo": "novedad"
         },
         {
           "modulo": "external",
           "nombre": "Menú de clusters",
-          "descripcion": "Al hacer clic en un marcador agrupado (+N) ahora se despliega un popover con el detalle de cada orden contenida en el cluster, mostrando su número de OT, cliente, estado y tipo, con navegación directa a cada una.",
+          "descripcion": "Mapa: Al hacer clic en un marcador agrupado (+N) ahora se despliega un popover con el detalle de cada orden contenida en el cluster, mostrando su número de OT, cliente, estado y tipo, con navegación directa a cada una.",
           "tipo": "novedad"
         },
         {
           "modulo": "external",
           "nombre": "Mejoras en ventanas de información",
-          "descripcion": "Se rediseñó el contenido de las ventanas de información de trabajadores/vehículos y rutas. Al hacer clic sobre un trabajador se agrupan los marcadores cercanos (hasta 40 metros) permitiendo navegar entre ellos y consultar las órdenes asignadas para el día.",
+          "descripcion": "Mapa: Se rediseñó el contenido de las ventanas de información de trabajadores/vehículos y rutas. Al hacer clic sobre un trabajador se agrupan los marcadores cercanos (hasta 40 metros) permitiendo navegar entre ellos y consultar las órdenes asignadas para el día.",
           "tipo": "mejora"
         },
         {
           "modulo": "external",
           "nombre": "Rendimiento y estabilidad del mapa",
-          "descripcion": "Se reestructuró el módulo de mapa separando la lógica de marcadores, filtros, badges e info windows en servicios especializados, mejorando el rendimiento al visualizar grandes volúmenes de órdenes.",
+          "descripcion": "Mapa: Se reestructuró el módulo de mapa separando la lógica de marcadores, filtros, badges e info windows en servicios especializados, mejorando el rendimiento al visualizar grandes volúmenes de órdenes.",
           "tipo": "mejora"
         }
       ]
