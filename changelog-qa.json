@@ -9,7 +9,7 @@
           "modulo": "general",
           "nombre": "Estabilidad y mejoras internas",
           "descripcion": "Realizamos mejoras internas de robustez en las validaciones del plan y límites de uso para asegurar que cada organización consulte siempre su información correcta.",
-          "tipo": "mejora"
+          "tipo": "mantenimiento"
         }
       ]
     },
