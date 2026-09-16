@@ -2,7 +2,7 @@
   "versiones": [
     {
       "plataforma": "web",
-      "version": "2.2.23.1",
+      "version": "2.2.24.1",
       "fecha": "16-09-2026",
       "cambios": [
         {
@@ -10,6 +10,19 @@
           "nombre": "Estabilidad y mejoras internas",
           "descripcion": "Realizamos mejoras internas de robustez en las validaciones del plan y límites de uso para asegurar que cada organización consulte siempre su información correcta.",
           "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.23.1",
+      "fecha": "15-09-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Mejora modal crear OTS",
+          "descripcion": "Se actualizó el modal de creción de OTS para que siga el mismo estilo visual de los nuevos modales de edición y detalles de la OTS.",
+          "tipo": "mejora"
         }
       ]
     },
