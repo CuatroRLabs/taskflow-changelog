@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.27.1",
+      "fecha": "22-09-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Realizamos mejoras internas de robustez en las validaciones y límites de los campos de la plataforma para asegurar el correcto funcionamiento y rendimiento de la aplicación.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.26.1",
       "fecha": "21-09-2026",
       "cambios": [
