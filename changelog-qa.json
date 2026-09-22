@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.28.1",
+      "fecha": "22-09-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Realizamos mejoras internas de robustez en la carga de recursos visuales de la plataforma, asegurando que tipografías e íconos funcionen con mayor confianza y disponibilidad.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.27.1",
       "fecha": "22-09-2026",
       "cambios": [
