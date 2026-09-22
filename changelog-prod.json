@@ -2,6 +2,58 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.26.1",
+      "fecha": "21-09-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Aplicamos optimizaciones internas de estabilidad y mantenimiento general para asegurar el correcto funcionamiento y rendimiento de la plataforma. No hay cambios visibles en la interfaz.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.25.1",
+      "fecha": "16-09-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Validación de coordenadas al editar OTS",
+          "descripcion": "Al editar una OTS, si ingresas coordenadas en el campo de dirección ahora el sistema las revisa antes de guardar: si tienen un formato incorrecto te avisará con un mensaje para que puedas corregirlas, y si son válidas buscará automáticamente la dirección real en el mapa para completar los datos de la ubicación.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.24.1",
+      "fecha": "16-09-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Realizamos mejoras internas de robustez en las validaciones del plan y límites de uso para asegurar que cada organización consulte siempre su información correcta.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.23.1",
+      "fecha": "15-09-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Mejora modal crear OTS",
+          "descripcion": "Se actualizó el modal de creción de OTS para que siga el mismo estilo visual de los nuevos modales de edición y detalles de la OTS.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.22.2",
       "fecha": "07-09-2026",
       "cambios": [
