@@ -8,7 +8,7 @@
         {
           "modulo": "external",
           "nombre": "Estabilidad y mejoras internas",
-          "descripcion": "Realizamos ajustes internos de configuración en la actualización automática de las órdenes de trabajo de planta externa, para que el entorno de cada instalación reciba las notificaciones en tiempo real desde la fuente correcta. No hay cambios visibles en la interfaz.",
+          "descripcion": "Realizamos ajustes internos de configuración en la actualización automática de las órdenes de trabajo de planta externa, para que el entorno de cada instalación reciba las notificaciones en tiempo real desde la fuente correcta.",
           "tipo": "mejora"
         }
       ]
