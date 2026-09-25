@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.30.1",
+      "fecha": "25-09-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Renombrar secciones de formularios",
+          "descripcion": "En la configuración de formularios de planta externa, ahora es posible editar el nombre de una sección existente desde el modal de Gestionar Secciones.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.29.1",
       "fecha": "23-09-2026",
       "cambios": [
