@@ -2,6 +2,25 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.31.1",
+      "fecha": "29-09-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Actualización de la paleta visual",
+          "descripcion": "Se actualizó la paleta principal a azul marino y se unificaron los colores de botones, formularios, alertas, gráficos, mapas y otros elementos de la plataforma.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Mejora en las opciones de descarga",
+          "descripcion": "Las opciones de descarga ahora se resaltan con mayor claridad al pasar el cursor o seleccionarlas, y los botones conservan su color azul distintivo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.30.1",
       "fecha": "25-09-2026",
       "cambios": [
