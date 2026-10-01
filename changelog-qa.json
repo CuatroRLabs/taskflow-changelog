@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.32.1",
+      "fecha": "01-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Actualización de componentes y dependencias base del sistema para optimizar el rendimiento, la seguridad y la estabilidad general de la plataforma.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.31.1",
       "fecha": "29-09-2026",
       "cambios": [
