@@ -2,6 +2,25 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.33.1",
+      "fecha": "05-10-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Color de los botones de búsqueda",
+          "descripcion": "Se corrigió el color de los botones de búsqueda de Reporte OC e Historial de Transacciones cuando están deshabilitados o procesando.",
+          "tipo": "fix"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Hover en la importación masiva",
+          "descripcion": "Los botones Revisar y Subir ahora muestran el color de hover de la plataforma al pasar el cursor.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.32.1",
       "fecha": "01-10-2026",
       "cambios": [
