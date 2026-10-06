@@ -1,6 +1,19 @@
 {
   "versiones": [
     {
+  "plataforma": "web",
+  "version": "2.2.34.1",
+  "fecha": "06-10-2026",
+  "cambios": [
+    {
+      "modulo": "general",
+      "nombre": "Tamaño de los botones de búsqueda",
+      "descripcion": "En los reportes de Inventario (Historial de Transacciones, Inventario por ubicación, Merma, Trazabilidad y Reporte OC) y de Gestión Interna (Reporte por Estados, Reporte por Checklist, Reporte OTR e Inventario por Cliente), los botones de búsqueda mantienen ahora su tamaño fijo mientras se procesa la consulta y ya no se agrandan al mostrar el mensaje Buscando.",
+      "tipo": "fix"
+    }
+  ]
+},
+    {
       "plataforma": "web",
       "version": "2.2.33.1",
       "fecha": "05-10-2026",
