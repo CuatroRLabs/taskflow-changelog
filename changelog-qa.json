@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.35.1",
+      "fecha": "06-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Tipos de OT ocultos al crear órdenes",
+          "descripcion": "En Planta Externa, los tipos de OT que fueron ocultados en la configuración ya no aparecen en el selector de Tipo de OT al crear una nueva orden. Si una orden existente tiene asignado un tipo oculto, este se mantiene al editarla.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.34.2",
       "fecha": "06-10-2026",
       "cambios": [
