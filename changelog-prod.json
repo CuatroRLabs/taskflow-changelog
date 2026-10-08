@@ -2,6 +2,109 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.35.1",
+      "fecha": "06-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Tipos de OT ocultos al crear órdenes",
+          "descripcion": "En Planta Externa, los tipos de OT que fueron ocultados en la configuración ya no aparecen en el selector de Tipo de OT al crear una nueva orden. Si una orden existente tiene asignado un tipo oculto, este se mantiene al editarla.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.34.2",
+      "fecha": "06-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Actualización de componentes y dependencias base del sistema para optimizar el rendimiento, la seguridad y la estabilidad general de la plataforma.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.34.1",
+      "fecha": "06-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Tamaño de los botones de búsqueda",
+          "descripcion": "En los reportes de Inventario (Historial de Transacciones, Inventario por ubicación, Merma, Trazabilidad y Reporte OC) y de Gestión Interna (Reporte por Estados, Reporte por Checklist, Reporte OTR e Inventario por Cliente), los botones de búsqueda mantienen ahora su tamaño fijo mientras se procesa la consulta y ya no se agrandan al mostrar el mensaje Buscando.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.33.1",
+      "fecha": "05-10-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Color de los botones de búsqueda",
+          "descripcion": "Se corrigió el color de los botones de búsqueda de Reporte OC e Historial de Transacciones cuando están deshabilitados o procesando.",
+          "tipo": "fix"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Hover en la importación masiva",
+          "descripcion": "Los botones Revisar y Subir ahora muestran el color de hover de la plataforma al pasar el cursor.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.32.1",
+      "fecha": "01-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Actualización de componentes y dependencias base del sistema para optimizar el rendimiento, la seguridad y la estabilidad general de la plataforma.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.31.1",
+      "fecha": "29-09-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Actualización de la paleta visual",
+          "descripcion": "Se actualizó la paleta principal a azul marino y se unificaron los colores de botones, formularios, alertas, gráficos, mapas y otros elementos de la plataforma.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Mejora en las opciones de descarga",
+          "descripcion": "Las opciones de descarga ahora se resaltan con mayor claridad al pasar el cursor o seleccionarlas, y los botones conservan su color azul distintivo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.30.1",
+      "fecha": "25-09-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Renombrar secciones de formularios",
+          "descripcion": "En la configuración de formularios de planta externa, ahora es posible editar el nombre de una sección existente desde el modal de Gestionar Secciones.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.29.1",
       "fecha": "23-09-2026",
       "cambios": [
