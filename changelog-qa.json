@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.35.2",
+      "fecha": "09-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Se mejora la continuidad del trabajo con activos operacionales y la confirmación de formularios, materiales e imágenes al recuperar la conexión.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.35.1",
       "fecha": "06-10-2026",
       "cambios": [
