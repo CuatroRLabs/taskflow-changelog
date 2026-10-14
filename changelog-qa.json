@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.37.1",
+      "fecha": "14-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Trabajadores filtrados al editar órdenes",
+          "descripcion": "En Planta Externa, al editar una orden de trabajo, la lista de trabajadores asignables ahora se ajusta automáticamente según la configuración de filtros vigente.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.36.2",
       "fecha": "14-10-2026",
       "cambios": [
