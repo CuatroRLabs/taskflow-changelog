@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.2.38.1",
+      "fecha": "19-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Cambio de organización en Comunicaciones y Clientes",
+          "descripcion": "Los usuarios administradores ahora pueden cambiar de organización desde las pantallas de Comunicación y Notificaciones y de Clientes, seleccionándola desde el selector habitual y sin necesidad de navegar a otra sección.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.37.1",
       "fecha": "14-10-2026",
       "cambios": [
