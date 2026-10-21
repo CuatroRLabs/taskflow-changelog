@@ -2,6 +2,25 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.3.38.1",
+      "fecha": "21-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "BackOffice: nueva sección de administración",
+          "descripcion": "Se creó la sección BackOffice para los usuarios con acceso administrativo global, disponible desde la pantalla de módulos a través de su propia tarjeta. Reúne en un solo lugar el ajuste de inventario y la gestión de organizaciones, límites por organización y habilitación de activos operacionales, con un menú superior propio que marca la página activa y cuenta con notificaciones.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Simplificación de menús administrativos",
+          "descripcion": "Se retiraron de los menús de Gestión Interna, Gestión Externa e Inventario los accesos a Organizaciones, Límites de Organizaciones y Habilitación de Activos Operacionales. Estas pantallas ahora están disponibles solamente dentro de la sección BackOffice.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.38.1",
       "fecha": "19-10-2026",
       "cambios": [
