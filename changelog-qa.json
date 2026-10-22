@@ -2,6 +2,37 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.39.1",
+      "fecha": "22-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Reporte de OTS finalizada con diseño renovado",
+          "descripcion": "El reporte de una OTS finalizada ahora utiliza el mismo diseño de tarjetas del detalle de OTS, con la información del cliente, la tarea, la programación, los formularios, los materiales, el checklist, las incidencias y las firmas organizadas de forma más clara y consistente.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Formularios de activos operacionales en el detalle de OTS",
+          "descripcion": "El detalle de OTS ahora separa los formularios generales de los formularios de activos operacionales y muestra el código y nombre de cada activo, en lugar de solo su identificador.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Detalle de OTS unificado en Reporte OTS Detallado",
+          "descripcion": "Al abrir el detalle de una OTS desde Reporte OTS Detallado se muestra el mismo detalle completo y actualizado que en la sección OTS, con formularios, activos operacionales, materiales, checklist, incidencias y firmas. La exportación del reporte se mantiene disponible desde el listado.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Carga del detalle de OTS",
+          "descripcion": "El detalle de OTS ahora se abre vacío mientras carga la información y luego muestra únicamente los datos de la orden seleccionada, evitando que aparezcan datos de una OTS anterior.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.38.1",
       "fecha": "22-10-2026",
       "cambios": [
