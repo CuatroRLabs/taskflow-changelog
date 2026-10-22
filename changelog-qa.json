@@ -2,6 +2,31 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.38.1",
+      "fecha": "22-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Detalle de OTS: nuevas secciones de materiales y equipos",
+          "descripcion": "El detalle de una OTS finalizada ahora muestra cuatro secciones independientes: Materiales Instalados, Materiales Retirados, Equipos Instalados y Equipos Retirados. Cada sección presenta el detalle de sus registros (código, nombre, marca, modelo, serial y cantidad) y muestra avisos claros cuando está vacía.",
+          "tipo": "novedad"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Configuración del detalle de OTS por perfil",
+          "descripcion": "En la configuración del detalle de OTS cada perfil ahora puede activar o desactivar las secciones de Materiales y Equipos. Al encender una de ellas se despliegan sus opciones Instalados y Retirados para mostrar u ocultar cada vista por separado, y la lista de perfiles indica con etiquetas el estado de cada una.",
+          "tipo": "novedad"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Permisos de cliente: nuevos controles para materiales y equipos",
+          "descripcion": "En Editar Configuración se agregaron en Permisos de cliente los controles para mostrar u ocultar materiales instalados, materiales retirados, equipos instalados y equipos retirados del reporte que se comparte al cliente (PDF y página pública), que ahora respetan esa configuración de la misma forma que el PDF.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.3.38.1",
       "fecha": "21-10-2026",
       "cambios": [
