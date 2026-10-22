@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.41.1",
+      "fecha": "22-10-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Creación de proveedores desde órdenes y solicitudes de compra",
+          "descripcion": "En el detalle de una orden de compra y de una solicitud de compra ahora puedes crear un proveedor directamente junto al selector de proveedor, sin salir de la pantalla. El nuevo proveedor queda disponible y seleccionado automáticamente. El formulario de creación solo exige nombre, RUT y dirección, y el proveedor se registra activo por defecto.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.40.1",
       "fecha": "22-10-2026",
       "cambios": [
