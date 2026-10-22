@@ -2,6 +2,64 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.3.38.1",
+      "fecha": "21-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "BackOffice: nueva sección de administración",
+          "descripcion": "Se creó la sección BackOffice para los usuarios con acceso administrativo global, disponible desde la pantalla de módulos a través de su propia tarjeta. Reúne en un solo lugar el ajuste de inventario y la gestión de organizaciones, límites por organización y habilitación de activos operacionales, con un menú superior propio que marca la página activa y cuenta con notificaciones.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "general",
+          "nombre": "Simplificación de menús administrativos",
+          "descripcion": "Se retiraron de los menús de Gestión Interna, Gestión Externa e Inventario los accesos a Organizaciones, Límites de Organizaciones y Habilitación de Activos Operacionales. Estas pantallas ahora están disponibles solamente dentro de la sección BackOffice.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.38.1",
+      "fecha": "19-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Cambio de organización en Comunicaciones y Clientes",
+          "descripcion": "Los usuarios administradores ahora pueden cambiar de organización desde las pantallas de Comunicación y Notificaciones y de Clientes, seleccionándola desde el selector habitual y sin necesidad de navegar a otra sección.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.37.1",
+      "fecha": "14-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Trabajadores filtrados al editar órdenes",
+          "descripcion": "En Planta Externa, al editar una orden de trabajo, la lista de trabajadores asignables ahora se ajusta automáticamente según la configuración de filtros vigente.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.2.36.2",
+      "fecha": "14-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Actualización de componentes y dependencias base del sistema para optimizar el rendimiento, la seguridad y la estabilidad general de la plataforma.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.2.35.1",
       "fecha": "06-10-2026",
       "cambios": [
