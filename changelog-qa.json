@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.40.1",
+      "fecha": "22-10-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Conversor de unidades en la recepción de compra",
+          "descripcion": "En la recepción de compra, los items que necesitan conversor de unidades ahora se identifican con un icono de información que muestra un aviso al pasar el cursor. Si la organización no tiene conversores configurados, solo esos items quedan bloqueados y se indica cuáles son, mientras el resto puede recepcionarse con normalidad.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.39.1",
       "fecha": "22-10-2026",
       "cambios": [
