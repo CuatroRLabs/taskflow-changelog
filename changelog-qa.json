@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.42.1",
+      "fecha": "27-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Historial de modificaciones de OTS más claro",
+          "descripcion": "El historial de modificaciones de una OTS ahora se agrupa por minuto en una línea de tiempo: la hora aparece una sola vez y bajo ella se detallan los cambios de ese momento, indicando la acción realizada, el usuario, el dispositivo y el valor anterior y nuevo de cada campo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.41.3",
       "fecha": "26-10-2026",
       "cambios": [
