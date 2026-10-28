@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.43.1",
+      "fecha": "28-10-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Selector de almacén destino ajustado en transferencias",
+          "descripcion": "En el detalle de una transferencia pendiente de aprobación, el selector de almacén destino ya no se sale del recuadro del formulario y ocupa el espacio disponible junto a su etiqueta.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.42.1",
       "fecha": "27-10-2026",
       "cambios": [
