@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.43.2",
+      "fecha": "28-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Orden de preguntas en formularios de activos operacionales",
+          "descripcion": "En el detalle de una OTS, las preguntas de los formularios de activos operacionales ahora se muestran ordenadas por sección y numeración, y las fotografías aparecen en el lugar que les corresponde dentro del formulario.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.43.1",
       "fecha": "28-10-2026",
       "cambios": [
