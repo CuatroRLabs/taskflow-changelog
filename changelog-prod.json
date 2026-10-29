@@ -2,6 +2,153 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.43.2",
+      "fecha": "28-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Orden de preguntas en formularios de activos operacionales",
+          "descripcion": "En el detalle de una OTS, las preguntas de los formularios de activos operacionales ahora se muestran ordenadas por sección y numeración, y las fotografías aparecen en el lugar que les corresponde dentro del formulario.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.43.1",
+      "fecha": "28-10-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Selector de almacén destino ajustado en transferencias",
+          "descripcion": "En el detalle de una transferencia pendiente de aprobación, el selector de almacén destino ya no se sale del recuadro del formulario y ocupa el espacio disponible junto a su etiqueta.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.42.1",
+      "fecha": "27-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Historial de modificaciones de OTS más claro",
+          "descripcion": "El historial de modificaciones de una OTS ahora se agrupa por minuto en una línea de tiempo: la hora aparece una sola vez y bajo ella se detallan los cambios de ese momento, indicando la acción realizada, el usuario, el dispositivo y el valor anterior y nuevo de cada campo.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.41.3",
+      "fecha": "26-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Actualizaciones de librerías y componentes base para optimizar la seguridad y el rendimiento del sistema.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.41.2",
+      "fecha": "23-10-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Actualizaciones de librerías y componentes base para optimizar la seguridad y el rendimiento del sistema.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.41.1",
+      "fecha": "22-10-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Creación de proveedores desde órdenes y solicitudes de compra",
+          "descripcion": "En el detalle de una orden de compra y de una solicitud de compra ahora puedes crear un proveedor directamente junto al selector de proveedor, sin salir de la pantalla. El nuevo proveedor queda disponible y seleccionado automáticamente. El formulario de creación solo exige nombre, RUT y dirección, y el proveedor se registra activo por defecto.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.40.1",
+      "fecha": "22-10-2026",
+      "cambios": [
+        {
+          "modulo": "inventory",
+          "nombre": "Conversor de unidades en la recepción de compra",
+          "descripcion": "En la recepción de compra, los items que necesitan conversor de unidades ahora se identifican con un icono de información que muestra un aviso al pasar el cursor. Si la organización no tiene conversores configurados, solo esos items quedan bloqueados y se indica cuáles son, mientras el resto puede recepcionarse con normalidad.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.39.1",
+      "fecha": "22-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Reporte de OTS finalizada con diseño renovado",
+          "descripcion": "El reporte de una OTS finalizada ahora utiliza el mismo diseño de tarjetas del detalle de OTS, con la información del cliente, la tarea, la programación, los formularios, los materiales, el checklist, las incidencias y las firmas organizadas de forma más clara y consistente.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Formularios de activos operacionales en el detalle de OTS",
+          "descripcion": "El detalle de OTS ahora separa los formularios generales de los formularios de activos operacionales y muestra el código y nombre de cada activo, en lugar de solo su identificador.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Detalle de OTS unificado en Reporte OTS Detallado",
+          "descripcion": "Al abrir el detalle de una OTS desde Reporte OTS Detallado se muestra el mismo detalle completo y actualizado que en la sección OTS, con formularios, activos operacionales, materiales, checklist, incidencias y firmas. La exportación del reporte se mantiene disponible desde el listado.",
+          "tipo": "mejora"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Carga del detalle de OTS",
+          "descripcion": "El detalle de OTS ahora se abre vacío mientras carga la información y luego muestra únicamente los datos de la orden seleccionada, evitando que aparezcan datos de una OTS anterior.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.38.1",
+      "fecha": "22-10-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Detalle de OTS: nuevas secciones de materiales y equipos",
+          "descripcion": "El detalle de una OTS finalizada ahora muestra cuatro secciones independientes: Materiales Instalados, Materiales Retirados, Equipos Instalados y Equipos Retirados. Cada sección presenta el detalle de sus registros (código, nombre, marca, modelo, serial y cantidad) y muestra avisos claros cuando está vacía.",
+          "tipo": "novedad"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Configuración del detalle de OTS por perfil",
+          "descripcion": "En la configuración del detalle de OTS cada perfil ahora puede activar o desactivar las secciones de Materiales y Equipos. Al encender una de ellas se despliegan sus opciones Instalados y Retirados para mostrar u ocultar cada vista por separado, y la lista de perfiles indica con etiquetas el estado de cada una.",
+          "tipo": "novedad"
+        },
+        {
+          "modulo": "external",
+          "nombre": "Permisos de cliente: nuevos controles para materiales y equipos",
+          "descripcion": "En Editar Configuración se agregaron en Permisos de cliente los controles para mostrar u ocultar materiales instalados, materiales retirados, equipos instalados y equipos retirados del reporte que se comparte al cliente (PDF y página pública), que ahora respetan esa configuración de la misma forma que el PDF.",
+          "tipo": "novedad"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.3.38.1",
       "fecha": "21-10-2026",
       "cambios": [
