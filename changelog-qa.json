@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.44.1",
+      "fecha": "02-11-2026",
+      "cambios": [
+        {
+          "modulo": "autenticacion",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Se reforzó la protección de las credenciales durante el inicio de sesión para mejorar la seguridad de la plataforma.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.43.2",
       "fecha": "28-10-2026",
       "cambios": [
