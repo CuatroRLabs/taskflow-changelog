@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.45.1",
+      "fecha": "02-11-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Historial de OTS más preciso",
+          "descripcion": "El historial de una OTS ya no registra cambios en 'Creada por' cuando el creador no se modifica, y muestra el nombre de los usuarios en lugar de identificadores numéricos.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.44.1",
       "fecha": "02-11-2026",
       "cambios": [
