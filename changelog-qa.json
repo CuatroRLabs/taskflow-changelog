@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.46.1",
+      "fecha": "04-11-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Clarificación de mensaje al eliminar usuario.",
+          "descripcion": "Al intentar eliminar un usuario que aún tiene ítems asignados en su bodega móvil, la aplicación ahora muestra el motivo entregado por el sistema, indicando que primero se deben transferir o devolver esos ítems. El mismo comportamiento aplica en Inventario, Gestión Interna y Gestión Externa.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.45.2",
       "fecha": "03-11-2026",
       "cambios": [
