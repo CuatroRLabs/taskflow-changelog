@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.47.1",
+      "fecha": "09-11-2026",
+      "cambios": [
+         {
+          "modulo": "general",
+          "nombre": "Validación de órdenes de trabajo activas al eliminar usuarios y trabajadores",
+          "descripcion": "Al intentar eliminar un usuario o trabajador que posee órdenes de trabajo (OTS) activas asignadas en Gestión Externa, la plataforma bloquea la acción e informa el motivo detallando el correo electrónico y los identificadores de las órdenes pendientes, indicando que deben ser reasignadas previamente.",
+          "tipo": "mejora"
+         }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.46.1",
       "fecha": "04-11-2026",
       "cambios": [
