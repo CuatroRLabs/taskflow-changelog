@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.47.2",
+      "fecha": "16-11-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Actualizaciones de librerías y componentes base para optimizar la seguridad y el rendimiento del sistema.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.47.1",
       "fecha": "09-11-2026",
       "cambios": [
