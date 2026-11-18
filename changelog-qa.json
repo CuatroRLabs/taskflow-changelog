@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.49.1",
+      "fecha": "18-11-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Visibilidad de materiales y equipos en reportes compartidos de OTS",
+          "descripcion": "En los reportes compartidos de OTS, las secciones de materiales y equipos ahora se ocultan cuando Inventario está desactivado para la organización.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.48.1",
       "fecha": "18-11-2026",
       "cambios": [
