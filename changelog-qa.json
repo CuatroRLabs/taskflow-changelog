@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.48.1",
+      "fecha": "18-11-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Reordenamiento de preguntas en el configurador de formularios",
+          "descripcion": "En el configurador de formularios de Gestión Externa, ahora es posible reorganizar las preguntas dentro de cada sección arrastrándolas directamente en la lista. El orden configurado se guarda automáticamente y determina la secuencia en que se presentan las preguntas en el formulario de cada orden de trabajo (OTS) al momento de su creación.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.47.2",
       "fecha": "16-11-2026",
       "cambios": [
