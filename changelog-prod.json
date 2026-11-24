@@ -2,6 +2,71 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.49.1",
+      "fecha": "18-11-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Visibilidad de materiales y equipos en reportes compartidos de OTS",
+          "descripcion": "En los reportes compartidos de OTS, las secciones de materiales y equipos ahora se ocultan cuando Inventario está desactivado para la organización.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.48.1",
+      "fecha": "18-11-2026",
+      "cambios": [
+        {
+          "modulo": "external",
+          "nombre": "Reordenamiento de preguntas en el configurador de formularios",
+          "descripcion": "En el configurador de formularios de Gestión Externa, ahora es posible reorganizar las preguntas dentro de cada sección arrastrándolas directamente en la lista. El orden configurado se guarda automáticamente y determina la secuencia en que se presentan las preguntas en el formulario de cada orden de trabajo (OTS) al momento de su creación.",
+          "tipo": "mejora"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.47.2",
+      "fecha": "16-11-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Estabilidad y mejoras internas",
+          "descripcion": "Actualizaciones de librerías y componentes base para optimizar la seguridad y el rendimiento del sistema.",
+          "tipo": "mantenimiento"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.47.1",
+      "fecha": "09-11-2026",
+      "cambios": [
+         {
+          "modulo": "general",
+          "nombre": "Validación de órdenes de trabajo activas al eliminar usuarios y trabajadores",
+          "descripcion": "Al intentar eliminar un usuario o trabajador que posee órdenes de trabajo (OTS) activas asignadas en Gestión Externa, la plataforma bloquea la acción e informa el motivo detallando el correo electrónico y los identificadores de las órdenes pendientes, indicando que deben ser reasignadas previamente.",
+          "tipo": "mejora"
+         }
+      ]
+    },
+    {
+      "plataforma": "web",
+      "version": "2.4.46.1",
+      "fecha": "04-11-2026",
+      "cambios": [
+        {
+          "modulo": "general",
+          "nombre": "Clarificación de mensaje al eliminar usuario.",
+          "descripcion": "Al intentar eliminar un usuario que aún tiene ítems asignados en su bodega móvil, la aplicación ahora muestra el motivo entregado por el sistema, indicando que primero se deben transferir o devolver esos ítems. El mismo comportamiento aplica en Inventario, Gestión Interna y Gestión Externa.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.45.2",
       "fecha": "03-11-2026",
       "cambios": [
