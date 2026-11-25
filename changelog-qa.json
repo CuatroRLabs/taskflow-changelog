@@ -2,6 +2,19 @@
   "versiones": [
     {
       "plataforma": "web",
+      "version": "2.4.50.1",
+      "fecha": "25-11-2026",
+      "cambios": [
+        {
+          "modulo": "internal",
+          "nombre": "Cierre directo de OTL por ingresar",
+          "descripcion": "Las OTL en estado «Por Ingresar» ahora cuentan con una X en el encabezado para cerrar la ventana de edición.",
+          "tipo": "fix"
+        }
+      ]
+    },
+    {
+      "plataforma": "web",
       "version": "2.4.49.1",
       "fecha": "18-11-2026",
       "cambios": [
